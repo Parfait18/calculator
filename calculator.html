@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+</head>
+    <body>
+
+
+
+        <div class="main">
+        <div id="label-div">
+            <label id="label-ttle">My calculator</label>
+        </div>
+        <div id="tab-div">
+             <input type="text"  name="operation" id="operation_input" maxlength="20" class="operation"/>
+      
+            <table class ="tab">         
+                <tr>
+                    <td><input type="button" onclick="clear_click(this)"  class="tab-btn" id="ac_btn" value="AC"/></td>     
+                    <td><input type="button" onclick="btn_click(this)"  class="tab-btn" id="modulo_btn" value="%"/></td>
+                    <td><input type="button" onclick="del_click(this)"class="tab-btn" id="" value="C"/></td>
+                    <td><input type="button" onclick="btn_click(this)" class="operation_button tab-btn" id="divise_btn" value="/"/></td>
+                </tr>
+                <tr>
+                    <td><input type="button" onclick="btn_click(this)" class="tab-btn" id="sevBtn" value="7" /></td>
+                    <td><input type="button" onclick="btn_click(this)" class="tab-btn" id="eigBtn" value="8" /></td>
+                    <td><input type="button" onclick="btn_click(this)" class="tab-btn" id="ninBtn" value="9"/></td>
+                    <td><input type="button" onclick="btn_click(this)" class="operation_button tab-btn" id="fois_btn" value="*"/></td>
+                   
+                   
+                </tr>
+                <tr>
+                    <td><input type="button" onclick="btn_click(this)"  class="tab-btn" id="forBtn" value="4"/></td>
+                    <td><input type="button" onclick="btn_click(this)"  class="tab-btn" id="fivBtn" value="5"/></td>
+                    <td><input type="button" onclick="btn_click(this)"  class="tab-btn" id="sixBtn" value="6"/></td>
+                    <td><input type="button" onclick="btn_click(this)" class="operation_button tab-btn" id="sous_btn" value="-" /></td>
+                    
+                </tr>
+                <tr>
+                    <td><input type="button" onclick="btn_click(this)" class="tab-btn" id="oneBtn" value="1"/></td>
+                    <td><input type="button" onclick="btn_click(this)"  class="tab-btn" id="twoBtn" value="2"/></td>
+                    <td><input type="button" onclick="btn_click(this)"  class="tab-btn" id="thrBtn" value="3"/></td>
+                    <td><input type="button" onclick="btn_click(this)" class="operation_button tab-btn" id="plusBtn" value="+"/></td>
+
+                </tr>
+                <tr>
+                    <td><input type="button" onclick="btn_click(this)" class="tab-btn" id="b1" value="."/></td>
+                    <td><input type="button" onclick="btn_click(this)"  class="tab-btn" id="zero_btn"  value="0"/></td>
+
+                    <td colspan="2" ><input onclick="equal_click(this)"  id="btn-equal" type="button" class="tab-btn" value="="/></td>
+                   
+                </tr>
+            </table>
+        </div>
+        </div>
+    </body>
+    <script src="calculator.js"></script>
+</html>

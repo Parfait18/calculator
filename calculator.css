@@ -1,0 +1,97 @@
+.main{
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    border:none;
+    box-shadow: 0px 5px  5px 5px rgb(182, 181, 181);
+}
+#label-ttle{
+    padding: 10px;
+    width:100%;
+    font-size: 24px;
+    margin:10px;
+    justify-content: center;
+}
+#label-div{
+    margin:auto;
+    width: 100%;
+    height: fit-content;
+    text-align:center;
+}
+#tab-div{
+    border-radius: 5px;
+    border:none;
+    box-shadow: 5px 5px rgb(255, 255, 255);
+    margin:auto;
+    width: fit-content;
+    background-color: rgb(172, 200, 226);
+}
+.operation{  
+    border-radius: 5px;
+    border:none;
+    box-shadow: -10px -10px -10px -10px rgb(196, 193, 193);
+    margin:10px;  
+    text-align: right;
+    color:rgb(238, 15, 15);
+    width: fit-content;
+    height: 40px;
+    font-size: 30px;
+
+}
+.tab{
+    padding: 10px;
+    width:100%; 
+}
+.tab-btn{
+    text-align: center;
+    font-weight: 100;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin:4px;
+    width: 70%; 
+    border-radius: 5px;
+    border:none;
+    box-shadow: 0px 5px  5px 2px rgb(255, 255, 255);
+    color: rgb(51, 51, 51);
+}
+.tab-btn:hover{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-color:  #26C281;;
+}
+#btn-equal{
+    justify-content: center;
+    color: white;
+    border-radius: 4px;
+    background-color: #26C281;
+    border:none;
+    margin: 5px;
+    width:90%;
+}
+#btn-equal:hover{
+    color: rgb(255, 255, 255);
+    background-color:  rgb(255, 125, 38);
+}
+
+#ac_btn{
+    color: white;
+    background-color: rgb(255, 93, 93);
+}
+#ac_btn:hover{
+    color: white;
+    background-color: rgb(255, 93, 93);
+}
+.operation_button{
+    color: white;
+    border-radius: 4px;
+    border:none;
+    box-shadow: 5px 5px rgb(255, 255, 255);
+    background-color: rgb(255, 125, 38);
+}
+.clr1{
+    color:rgb(54, 115, 196);
+}
